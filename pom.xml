@@ -73,6 +73,7 @@
           <argLine>
             -javaagent:${settings.localRepository}/org/jacoco/org.jacoco.agent/${jacoco.version}/org.jacoco.agent-${jacoco.version}-runtime.jar=destfile=${project.basedir}/target/jacoco.exec
             -javaagent:${settings.localRepository}/org/jmockit/jmockit/${jmockit.version}/jmockit-${jmockit.version}.jar
+            -Dcoverage-output=html
             -Dcoverage-classes=loaded
           </argLine>
         </configuration>

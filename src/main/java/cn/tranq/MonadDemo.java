@@ -1,3 +1,7 @@
+package cn.tranq;
+
+import java.util.Optional;
+
 public class MonadDemo {
 
     public static void demo() {
